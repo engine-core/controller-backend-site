@@ -1,0 +1,26 @@
+{
+  "name": "engine-core/controller-backend-site",
+  "description": "提供后台首页访问操作",
+  "type": "ec-extension",
+  "authors": [
+    {
+      "name": "E-Kevin",
+      "email": "e-kevin@qq.com"
+    }
+  ],
+  "license": "BSD-3-Clause",
+  "homepage": "https://github.com/EngineCore/controller-backend-site",
+  "require": {
+    "e-kevin/engine-core": "@dev"
+  },
+  "autoload": {
+    "psr-4": {
+      "EngineCore\\controllers\\backend\\site\\": "src"
+    }
+  },
+  "extra": {
+    "extension-config": {
+      "app": "backend"
+    }
+  }
+}
